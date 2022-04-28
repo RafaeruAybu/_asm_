@@ -1,20 +1,20 @@
-###AT&T asm.
+### AT&T asm.
 
-#####to build use:
+##### to build use:
 > make
 
-#####to clean use:
+##### to clean use:
 > make clean
 
-#####to build and execute(in folders):
+##### to build and execute(in folders):
 > make && ./\<name of exec\>
 
-###Some notes about asm(in asm style :KEKW:):
+### Some notes about asm(in asm style :KEKW:):
 
-#####consts:
+##### consts:
 >    $name
 
-#####registers:
+##### registers:
 >   %edx
     eax
     ebx
@@ -23,17 +23,17 @@
     esi
     edi
 
-#####commads:
+##### commads:
 >   mov
     cal
     int
     jmp
 
-#####data types:
+##### data types:
 >   ascii "......."
     word
     long
     byte
 
-#####example:
+##### example:
 >   mov $5,%eax
